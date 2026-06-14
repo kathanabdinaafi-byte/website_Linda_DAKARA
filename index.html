@@ -235,14 +235,18 @@
 
     <div class="horizontal-container" id="slider">
         
-        <!-- SLIDE 1: JUDUL -->
+        <!-- SLIDE 1: JUDUL DENGAN LOGO DI DALAM BOX -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-recycle hero-icon ani-rotate" style="color: var(--forest);"></i>
             </div>
             <div class="glass-card">
                 <span class="badge-eco reveal">★ FINALIS LINDA 2026 ★</span>
-                <h1 class="reveal">GAME EDUKASI <br><span style="color: var(--forest);">"SORT THE TRASH"</span></h1>
+                <!-- Wrapper Flex untuk Teks dan Logo -->
+                <div class="d-flex align-items-center flex-wrap gap-4 reveal">
+                    <h1 class="mb-0">GAME EDUKASI <br><span style="color: var(--forest);">"SORT THE TRASH"</span></h1>
+                    <img src="logo.jpg" alt="Logo" style="max-height: 180px; width: auto; border-radius: 20px;">
+                </div>
                 <div class="mt-4 reveal">
                     <h2 class="mb-0 text-muted" style="font-size: 2.2rem; color: #666 !important;">Tim DAKARA</h2>
                     <h3 class="text-forest" style="font-size: 1.8rem; font-weight: 700;">SMAN 2 Padalarang</h3>
@@ -250,7 +254,7 @@
             </div>
         </section>
 
-        <!-- SLIDE BARU: PROFIL ANGGOTA -->
+        <!-- SLIDE 2: PROFIL ANGGOTA -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-users-gear hero-icon ani-pulse" style="color: var(--forest);"></i>
@@ -298,7 +302,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 2 (Sekarang Slide 3): DASAR HUKUM -->
+        <!-- SLIDE 3: DASAR HUKUM -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-gavel hero-icon ani-strike"></i>
@@ -318,7 +322,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 3: PERMASALAHAN -->
+        <!-- SLIDE 4: PERMASALAHAN -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-exclamation-triangle hero-icon ani-pulse" style="color: var(--danger);"></i>
@@ -342,7 +346,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 4: ISU STRATEGIS -->
+        <!-- SLIDE 5: ISU STRATEGIS -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-globe-asia hero-icon ani-rotate" style="color: var(--ocean);"></i>
@@ -372,7 +376,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 5: METODE PEMBAHARUAN -->
+        <!-- SLIDE 6: METODE PEMBAHARUAN -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-sync hero-icon ani-rotate"></i>
@@ -400,7 +404,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 6: KEUNGGULAN -->
+        <!-- SLIDE 7: KEUNGGULAN -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-star hero-icon ani-pulse" style="color: var(--warning);"></i>
@@ -424,7 +428,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 7: TAHAPAN -->
+        <!-- SLIDE 8: TAHAPAN -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-tasks hero-icon" style="color: var(--ocean);"></i>
@@ -444,7 +448,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 8: SPESIFIKASI PRODUK -->
+        <!-- SLIDE 9: SPESIFIKASI PRODUK (DIPERBARUI) -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-laptop-code hero-icon ani-rotate" style="color: var(--ocean);"></i>
@@ -458,7 +462,11 @@
                                 <i class="fas fa-code fa-3x text-warning"></i>
                                 <h4 class="fw-bold mt-2">Teknologi</h4>
                             </div>
-                            <div class="list-item py-2" style="font-size: 1.1rem;">HTML5, CSS3, JS</div>
+                            <div class="d-flex flex-column gap-2">
+                                <div class="list-item py-2 mb-0" style="font-size: 1.1rem;">HTML</div>
+                                <div class="list-item py-2 mb-0" style="font-size: 1.1rem;">CSS</div>
+                                <div class="list-item py-2 mb-0" style="font-size: 1.1rem;">JavaScript</div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -467,7 +475,9 @@
                                 <i class="fas fa-gauge-high fa-3x text-primary"></i>
                                 <h4 class="fw-bold mt-2">Performa</h4>
                             </div>
-                            <div class="list-item py-2" style="font-size: 1.1rem;">Ringan & Responsif</div>
+                            <div class="list-item py-3" style="font-size: 1.05rem; line-height: 1.4;">
+                                Ringan dan responsif. Mendukung smartphone, tablet, dan laptop.
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -476,14 +486,16 @@
                                 <i class="fas fa-leaf fa-3x text-success"></i>
                                 <h4 class="fw-bold mt-2">Efisiensi</h4>
                             </div>
-                            <div class="list-item py-2" style="font-size: 1.1rem;">Hemat Kuota</div>
+                            <div class="list-item py-3" style="font-size: 1.05rem; line-height: 1.4;">
+                                Tidak memerlukan instalasi. Hemat kuota internet & berjalan di jaringan minim.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- SLIDE 9: TUJUAN -->
+        <!-- SLIDE 10: TUJUAN -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-bullseye hero-icon ani-pulse" style="color: var(--danger);"></i>
@@ -499,7 +511,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 10: MANFAAT -->
+        <!-- SLIDE 11: MANFAAT -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-heart hero-icon ani-pulse" style="color: var(--danger);"></i>
@@ -514,7 +526,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 11: HASIL -->
+        <!-- SLIDE 12: HASIL -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-chart-line hero-icon" style="color: var(--forest);"></i>
@@ -536,7 +548,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 12: DOKUMENTASI -->
+        <!-- SLIDE 13: DOKUMENTASI -->
         <section class="slide-section">
             <div class="w-100 h-100 d-flex flex-column align-items-center pt-5">
                 <h1 class="reveal text-center mb-5" style="color: var(--forest); font-size: 5rem; font-weight: 800; border-bottom: 5px solid var(--forest); padding-bottom: 15px;">
@@ -579,7 +591,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 13: KEBERLANJUTAN -->
+        <!-- SLIDE 14: KEBERLANJUTAN -->
         <section class="slide-section">
             <div class="ornament-wrapper">
                 <i class="fas fa-route hero-icon" style="color: var(--warning);"></i>
@@ -594,7 +606,7 @@
             </div>
         </section>
 
-        <!-- SLIDE 14: PENUTUP -->
+        <!-- SLIDE 15: PENUTUP -->
         <section class="slide-section text-center">
             <div class="ornament-wrapper">
                 <i class="fas fa-recycle hero-icon ani-rotate" style="color: var(--forest);"></i>
